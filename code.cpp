@@ -53,8 +53,8 @@ int main() {
     books[0].setBookDetails("book 1", "Manunya", "1111111111", true, "2025-08-01");
     books[1].setBookDetails("book 2", "test 1", "3333333333", false, "2025-05-01");
     books[2].setBookDetails("book 3", "test 1", "2222222222", true, "2025-01-01");
-    books[3].setBookDetails("Algorithms", "Sara Black", "4444444444", true, "2025-09-03");
-    books[4].setBookDetails("Design Patterns", "Tom Grey", "5555555555", true, "2025-10-18");
+    books[3].setBookDetails("book 4", "test 3", "4444444444", true, "2025-09-03");
+    books[4].setBookDetails("book 5", "test 4", "5555555555", true, "2025-10-18");
 
     std::cout << "=== Community Library Catalog ===\n\n";
     for (const auto& b : books) {
