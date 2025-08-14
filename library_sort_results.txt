@@ -1,0 +1,56 @@
+=== BEFORE SORTING (Original Order) ===
+Title: book 1
+Author: Manunya
+ISBN: 1111111111
+Available: Yes
+Date Added: 2025-08-01
+
+Title: book 2
+Author: test 1
+ISBN: 3333333333
+Available: No
+Date Added: 2025-05-01
+
+Title: book 3
+Author: test 1
+ISBN: 2222222222
+Available: Yes
+Date Added: 2025-01-01
+
+=== AFTER SORTING (Ascending by ISBN) ===
+Title: book 1
+Author: Manunya
+ISBN: 1111111111
+Available: Yes
+Date Added: 2025-08-01
+
+Title: book 2
+Author: test 1
+ISBN: 3333333333
+Available: No
+Date Added: 2025-05-01
+
+Title: book 3
+Author: test 1
+ISBN: 2222222222
+Available: Yes
+Date Added: 2025-01-01
+
+=== AFTER SORTING (Descending by ISBN) ===
+Title: book 3
+Author: test 1
+ISBN: 2222222222
+Available: Yes
+Date Added: 2025-01-01
+
+Title: book 2
+Author: test 1
+ISBN: 3333333333
+Available: No
+Date Added: 2025-05-01
+
+Title: book 1
+Author: Manunya
+ISBN: 1111111111
+Available: Yes
+Date Added: 2025-08-01
