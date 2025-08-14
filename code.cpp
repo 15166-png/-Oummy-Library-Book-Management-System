@@ -50,11 +50,11 @@ int main() {
     std::array<Book, 5> books;
 
     // Initialize library with 5 books
-    books[0].setBookDetails("The C++ Programming Language", "Bjarne Stroustrup", "9780321563842");
-    books[1].setBookDetails("Clean Code", "Robert C. Martin", "9780132350884");
-    books[2].setBookDetails("Design Patterns", "Gamma, Helm, Johnson, Vlissides", "9780201633610");
-    books[3].setBookDetails("Effective Modern C++", "Scott Meyers", "9781491903995");
-    books[4].setBookDetails("Cracking the Coding Interview", "Gayle Laakmann McDowell", "9780984782857");
+    books[0].setBookDetails("book 1", "Manunya", "1111111111", true, "2025-08-01");
+    books[1].setBookDetails("book 2", "test 1", "3333333333", false, "2025-05-01");
+    books[2].setBookDetails("book 3", "test 1", "2222222222", true, "2025-01-01");
+    books[3].setBookDetails("Algorithms", "Sara Black", "4444444444", true, "2025-09-03");
+    books[4].setBookDetails("Design Patterns", "Tom Grey", "5555555555", true, "2025-10-18");
 
     std::cout << "=== Community Library Catalog ===\n\n";
     for (const auto& b : books) {
